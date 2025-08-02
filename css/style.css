@@ -101,9 +101,10 @@ main {
     display: flex;
     width: auto;
     height: auto;
+    justify-content: space-evenly;
     margin: 32px;
     padding: 72px;
-    gap: 256px;
+    gap: 64px;
 }
 .err404 {
     display: flex;
@@ -117,10 +118,17 @@ main {
 .container {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    gap: 9px;
 }
 p {
-    font-size: 24px;
+  font-size: 24px;
+  margin-bottom: 0;
+}
+p b {
+    color: #8487BF;
 }
 .btns1 {
     font-family: 'Poppins', sans-serif;
@@ -128,11 +136,12 @@ p {
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    gap: 24px;
 }    
 .btn11 {
     font-family: 'Poppins', sans-serif;
     background-color: #F266CD;
+    display: flex;
     color: #1B181A;
     border: 3px solid #F266CD;
     font-weight: bold;
@@ -152,6 +161,7 @@ p {
     font-family: 'Poppins', sans-serif;
     background-color: #1B181A;
     color: #F266CD;
+    display: flex;
     border: 3px solid #F266CD;
     font-weight: bold;
     border-radius: 24px;
