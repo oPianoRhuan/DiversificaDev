@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'NeoTech';
-  src: url('/css/fonts/NeoTech.woff2') format('woff2');
+  src: url('/fonts/NeoTech.woff2') format('woff2');
   font-weight: normal;
 }
 @font-face {
   font-family: 'NeoTech';
-  src: url('/css/fonts/NeoTech-Bold.woff2') format('woff2');
+  src: url('/fonts/NeoTech-Bold.woff2') format('woff2');
   font-weight: bold;
 }
 body {
@@ -165,4 +165,5 @@ p {
     right: 10px;
     width: 25px;
     height: 25px;
+
 }
